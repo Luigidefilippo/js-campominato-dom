@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightslategray;
+    font-family: sans-serif;
+}
+header {
+    background-color: white;
+    height: 80px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+.container {
+    width: 700px;
+    height: calc(100vh - 160px) ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black
+}
+#modalita {
+    width: 200px;
+    height: 20px;
+}
+
+.buttone {
+    width: 80px;
+    height: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    /* width: calc(700px / 10);
+    height: calc(700px / 10); */
+    border: 2px solid #000000;
+}
+
+.hard {
+    width: calc(700px / 7);
+    height: calc(700px / 7);
+}
+.medium {
+    width: calc(700px / 9);
+    height: calc(700px / 9);
+}
+.easy {
+    width: calc(700px / 10);
+    height: calc(700px / 10);
+}
+
+.footer {
+    background-color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.disabled {
+    pointer-events: none;
+}
